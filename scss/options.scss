@@ -1,0 +1,136 @@
+.options {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    background: url("../images/christoffer-engstrom-503481-unsplash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+  
+    .tabs {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+      text-align: center;
+      gap: 30px;
+      padding-left: 80px;
+      
+  
+      .square {
+        display: flex;
+        width: 110px;
+        height: 110px;
+        text-align: center;
+        background: #E27866;
+        border: 2px solid #E27866;
+        align-items: center;
+        justify-content: center;
+        opacity: 0.5;
+        transition: 0.3s;
+  
+        span {
+          transform: rotate(-45deg);
+          color: white;
+        }
+      }
+    }
+  
+    .tabs { 
+  
+      .square:hover {
+          opacity: 1;
+          cursor: url('../images/custom_cursor.png'), auto;
+        }
+  
+        .square.active {
+          opacity: 1;
+        }
+    }
+  
+    .tab_explain {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      justify-content: center;
+      align-self: center;
+      text-align: justify;
+      color: white;
+      height: 300px;
+      width: 530px;
+      margin-top: -50px;
+    }
+  
+    .photoss {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+  
+      .images {
+        display: flex;
+        gap: 20px;
+        a {
+            img {
+              width: 350px;
+              filter: brightness(50%);
+              transition: 0.3s;
+              position: relative;
+              display: none;
+            }
+  
+            img.active {
+              width: 350px;
+              filter: brightness(50%);
+              transition: 0.3s;
+              position: relative;
+              display: block;
+            }
+  
+            img:hover {
+              filter: brightness(100%);
+              cursor: url('../images/custom_cursor.png'), auto;
+            }
+        }
+      }
+  
+      a:hover::before {  
+        content: "Explore";
+        position: absolute;
+        color: white;
+        // transform: translate(-50%, 50%);
+        z-index: 1;
+        text-align: center;
+        margin: 100px;
+        font-size: 1.5em;
+        cursor: url('../images/custom_cursor.png'), auto;
+      }
+  
+      .lumos {
+        a {
+          img {
+            width: 725px;
+            height: 200px;
+            filter: brightness(50%);
+            transition: 0.3s;
+            display: none;
+          }
+  
+          img.active {
+            width: 725px;
+            height: 200px;
+            filter: brightness(50%);
+            transition: 0.3s;
+            display: block;
+          }
+        }
+  
+        img:hover {
+          filter: brightness(100%);
+          cursor: url('../images/custom_cursor.png'), auto;
+        }
+      }
+    }
+  }

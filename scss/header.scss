@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  height: 80px;
+  background: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 300px;
+
+  .logo {
+    margin-top: 10px;
+
+    img {
+      width: 130px;
+    }
+  }
+
+  .bar {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    padding: 25px;
+
+    a {
+      color: white;
+      opacity: 69%;
+      transition: 0.3s;
+
+      &:hover {
+        opacity: 1;
+        cursor: url('../images/custom_cursor.png'), auto;
+      }
+
+      &.active {
+        opacity: 1;
+        border-bottom: 2px solid #E27866;
+      }
+    }
+  }
+}

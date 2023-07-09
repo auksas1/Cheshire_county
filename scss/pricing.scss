@@ -1,0 +1,177 @@
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+    width: 100%;
+    height: 950px;
+    background: #6696E2;
+  
+    .p-options {
+      color: white;
+      padding-top: 30px;
+  
+      h1 {
+        font-size: 36px;
+      }
+  
+      img {
+        fill: #41D395;
+      }
+  
+      p {
+        padding-top: 15px;
+      }
+    }
+  
+    .plans {
+      display: flex;
+      flex-direction: row;
+      gap: 200px;
+  
+      .basic {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+  
+        .up {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: #333333;
+          border-radius: 20px 20px 0 0 ;
+  
+          h2, h1 {
+            color: white;
+          }
+  
+          h1 {
+            font-size: 100px;
+          }
+  
+          p {
+            color: white;
+            opacity: 0.5;
+          }
+        }
+  
+        .green {
+          width: 400px;
+          height: 10px;
+          background: #41D395;
+        }
+  
+        .down {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: white;
+          border-radius: 0 0 20px 20px;
+          color: #86878B;
+        }
+      }
+  
+      .professional {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+  
+        .up {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: #333333;
+          border-radius: 20px 20px 0 0 ;
+  
+          h2, h1 {
+            color: white;
+          }
+  
+          h1 {
+            font-size: 100px;
+          }
+  
+          p {
+            color: white;
+            opacity: 0.5;
+          }
+        }
+  
+        .green {
+          color: white;
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 400px;
+          height: 30px;
+          background: #41D395;
+        }
+  
+        .down {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: white;
+          border-radius: 0 0 20px 20px;
+          color: #86878B;
+        }
+      }
+  
+      .enterprise {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+  
+        .up {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: #333333;
+          border-radius: 20px 20px 0 0 ;
+  
+          h2, h1 {
+            color: white;
+          }
+  
+          h1 {
+            font-size: 100px;
+          }
+  
+          p {
+            color: white;
+            opacity: 0.5;
+          }
+        }
+  
+        .green {
+          width: 400px;
+          height: 10px;
+          background: #41D395;
+        }
+  
+        .down {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          padding-top: 20px;
+          padding-bottom: 20px;
+          background: white;
+          border-radius: 0 0 20px 20px;
+          color: #86878B;
+        }
+      }
+    }
+  }

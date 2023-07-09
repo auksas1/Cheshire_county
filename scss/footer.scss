@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    background: black;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  
+    .icons {
+      display: flex;
+      flex-direction: row;
+      gap: 190px;
+
+      a {
+        cursor: url('../images/custom_cursor.png'), auto;
+      }
+      
+      .norma {
+        width: 25px;
+      }
+    }
+  
+    .copyrights {
+      p {
+        color: white;
+        opacity: 0.5;
+        font-size: 18px;
+        word-spacing: 3px;
+      }
+    }
+  }

@@ -1,0 +1,76 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    .titlee {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 26px;
+      word-spacing: 20px;
+  
+      img {
+        width: 100px;
+      }
+    }
+  
+    .swiper-slide {
+  
+      .opinion {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          // height: 130px;
+  
+        p {
+          width: 300px;
+          height: 130px;
+          background: #6696E2;
+          text-align: left;
+          padding-left: 15px;
+          padding-top: 5px;
+          font-size: 18px;
+          color: white;
+          border-radius: 20px;
+        }
+  
+        img {
+          width: 260px;
+          position: absolute;
+          z-index: 1;
+          padding-bottom: 130px;
+          padding-left: 220px;
+          transform: rotate(-180deg);
+        }
+      }
+  
+      .credentials {
+        padding-top: 30px;
+        padding-right: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        
+      }
+      
+    }
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #E27866; 
+    border: 2px solid black; 
+    box-shadow: none;
+  }
+  
+  .swiper-pagination-bullet-active {
+    border: 2px solid #E27866; 
+  }

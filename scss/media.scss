@@ -1,0 +1,192 @@
+@media (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+
+    header {
+      flex-direction: column;
+      justify-content: center;
+      gap: 0;
+      height: auto;
+  
+      .bar {
+        display: none;
+      }
+  
+      .burger-menu {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 10px;
+        margin-right: 20px;
+  
+        .burger-icon a {
+          display: flex;
+          align-items: center;
+  
+          img {
+            width: 30px;
+          }
+        }
+      }
+  
+      .dropdown-menu {
+        width: 100%;
+        background: black;
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        padding: 20px;
+  
+        a {
+          color: white;
+          opacity: 69%;
+          transition: 0.3s;
+          padding: 10px;
+  
+          &:hover {
+            opacity: 1;
+          }
+        }
+        
+        &.show {
+          display: flex;
+        }
+      }
+    }
+    
+    .features {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+      gap: 0;
+      padding-top: 400px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .explanation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15px;
+      }
+    }
+
+    .pricing {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      gap: 5;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+
+      .plans {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+      }
+    }
+
+    .socials {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      .medias {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        padding-bottom: 15px;
+
+        a {
+
+          img {
+            width: 80px;
+          }
+        }
+      }
+    }
+
+    .options {
+      display: flex;
+      flex-direction: column;
+      height: 800px;
+
+      .tabs {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        
+      }
+
+
+      .lumos {
+        a {
+          img {
+          width: auto;
+          height: auto;
+          }
+        }
+        
+      }
+    }
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 0;
+      padding: 0;
+      margin: 0;
+
+      .titles {
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        padding-bottom: 15px;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .why {
+      display: flex;
+      flex-direction: column; 
+      height: auto;
+      .why-bottom {
+        display: flex;
+        flex-direction: column;
+       
+      }
+    }
+
+    footer {
+      display: flex;
+      flex-direction: column;
+
+      .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+      }
+    }
+  }
