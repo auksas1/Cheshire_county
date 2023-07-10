@@ -73,12 +73,11 @@ tabElements.forEach(tab => {
 });
 
 burgerIcon.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default anchor behavior
+  event.preventDefault(); 
   dropdownMenu.classList.toggle('show');
-  event.stopPropagation(); // Stop event propagation to prevent closing the menu
+  event.stopPropagation(); 
 });
 
-// Close the dropdown menu when clicking outside of it
 document.addEventListener('click', (event) => {
   if (!dropdownMenu.contains(event.target)) {
     dropdownMenu.classList.remove('show');
